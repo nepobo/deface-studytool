@@ -1,7 +1,8 @@
 module Deface
   DEFAULT_ACTIONS = [ Actions::Remove, Actions::Replace, Actions::ReplaceContents, Actions::Surround,
         Actions::SurroundContents, Actions::InsertBefore, Actions::InsertAfter, Actions::InsertTop,
-        Actions::InsertBottom, Actions::SetAttributes, Actions::AddToAttributes, Actions::RemoveFromAttributes, Actions::SetAttributesAssets, Actions::SurroundImage ]
+        Actions::InsertBottom, Actions::SetAttributes, Actions::AddToAttributes, Actions::RemoveFromAttributes, Actions::SetAttributesAssets, 
+        Actions::SurroundImage, Actions::ReplaceBlock ]
 
   DEFAULT_SOURCES = [ Sources::Text, Sources::Erb, Sources::Haml, Sources::Slim, Sources::Partial, Sources::Template, Sources::Cut, Sources::Copy]
 

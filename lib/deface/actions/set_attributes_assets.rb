@@ -8,7 +8,6 @@ module Deface
         if current_value
           target_element.set_attribute("data-erb-#{name}", ActionController::Base.helpers.asset_path(current_value.to_s))
         else
-          # target_element.set_attribute("data-erb-#{name}", value.to_s)
           target_element
         end
       end
